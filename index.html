@@ -15,30 +15,30 @@
         <!-- Header -->
         <div class="header">
             <h1>MY TASKS</h1>
-            <button id="add-btn" aria-label="Add new task">
-                <span class="material-symbols-outlined add-icon" aria-hidden="true">add</span>
+            <button id="add-btn" >
+                <span class="material-symbols-outlined add-icon" >add</span>
             </button>
         </div>
 
         <!-- Filter and Sort Controls -->
-        <div class="controls" role="toolbar" aria-label="Task filters and sorting">
+        <div class="controls" >
             <div class="filter-group">
-                <button id="filter-all" class="filter-btn active" aria-pressed="true">All</button>
-                <button id="filter-completed" class="filter-btn" aria-pressed="false">Completed</button>
-                <button id="filter-incomplete" class="filter-btn" aria-pressed="false">Incomplete</button>
+                <button id="filter-all" class="filter-btn active" >All</button>
+                <button id="filter-completed" class="filter-btn" >Completed</button>
+                <button id="filter-incomplete" class="filter-btn" >Incomplete</button>
             </div>
-            <select id="sort-by" aria-label="Sort tasks by">
+            <select id="sort-by" >
                 <option value="date">Sort by Date</option>
                 <option value="title">Sort by Title</option>
             </select>
         </div>
 
         <!-- Tasks Container -->
-        <div id="tasks" class="tasks" role="list"></div>
+        <div id="tasks" class="tasks"></div>
     </div>
 
     <!-- Add/Edit Task Modal -->
-    <div id="task-modal" class="modal" role="dialog" aria-labelledby="modal-title">
+    <div id="task-modal" class="modal" >
         <div class="modal-content">
             <h2 id="modal-title">Add New Task</h2>
             <form id="task-form">
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <div id="notification" class="notification" role="alert"></div>
+    <div id="notification" class="notification"></div>
 
     <script src="scripts.js"></script>
 </body>
